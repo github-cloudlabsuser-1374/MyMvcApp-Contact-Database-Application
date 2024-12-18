@@ -1,0 +1,37 @@
+{
+    "$schema": "https://schema.management.azure.com/schemas/2019-04-01/deploymentTemplate.json#",
+    "contentVersion": "1.0.0.0",
+    "parameters": {
+      "appName": {
+        "type": "string",
+        "metadata": {
+          "description": "MyMvcApp1"
+        }
+      },
+      "location": {
+        "type": "string",
+        "metadata": {
+          "description": "Canada Central"
+        }
+      },
+      "sku": {
+        "type": "string",
+        "defaultValue": "S1",
+        "metadata": {
+          "description": "Standard"
+        }
+      },
+      "hostingPlanName": {
+        "type": "string",
+        "metadata": {
+          "description": "ASP-Challengergroup-9a4b"
+        }
+      },
+      "resourceGroupName": {
+        "type": "string",
+        "metadata": {
+          "description": "GitHub-Copilot-Challenges"
+        }
+      }
+    }
+  }
